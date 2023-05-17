@@ -1,10 +1,9 @@
 import "./App.css";
-import API from "./components/MyApi/index.js";
-//////////////
+import ToDo from "./components/ToDo";
 function App() {
   return (
     <>
-      <API />
+    <ToDo />
     </>
   );
 }
