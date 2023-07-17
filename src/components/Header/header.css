@@ -1,0 +1,32 @@
+
+  .name {
+    color: #000;
+    font-size: 27.147px;
+    font-weight: 400;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.lefttext {
+    color: #000;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    padding-left: 100px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #FEFEFE;
+    align-items: baseline;
+    padding: 10px;
+}
