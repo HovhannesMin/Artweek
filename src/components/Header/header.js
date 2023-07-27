@@ -1,23 +1,30 @@
-import './header.css';
+import { Routes, Route, Link } from "react-router-dom";
+import Logo from './About/svg/logo';
+import About from "./About/about";
+import Events from "./Events/index";
+import Artist from "./Artists/index";
+import './Header.css';
+
 function Header() {
-
-
   return (
     <>
       <div className="header">
-        <div className='right'>
-          <h2 className='name'><b>A+</b> Studio</h2>
-        </div>
-        <div className='left'>
-          <a className='lefttext'><b>Home</b></a>
-          <a className='lefttext'><b>What We Do</b></a>
-          <a className='lefttext'><b>Service</b></a>
-          <a className='lefttext'><b>Project</b></a>
-          <a className='lefttext'><b>Blog</b></a>
-          <a className='lefttext'><b>Contact</b></a>
-        </div>
-
+        <nav className="nav">
+          <div className="logo-container">
+            <Logo className="logo" />
+          </div>
+          <Link to="/About" className="nav-link">About</Link>
+          <Link to="/Events" className="nav-link">Events</Link>
+          <Link to="/Artist" className="nav-link">Artist</Link>
+        </nav>
       </div>
+
+      
+      <Routes>
+        <Route path="/About" element={<About />} />
+        <Route path="/Events" element={<Events />} />
+        <Route path="/Artist" element={<Artist />} />
+      </Routes>
     </>
   );
 }

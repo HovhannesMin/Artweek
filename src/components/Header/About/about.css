@@ -1,0 +1,187 @@
+.logo {
+  margin-left: 10px;
+}
+.container {
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 2000px;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  width: 1350px;
+  height: 808px;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.04);
+}
+.name {
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Staatliches", sans-serif;
+  font-size: 94px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.title {
+  display: flex;
+  width: 1200px;
+  height: 289px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Staatliches", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50.6px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
+.aboutPhoto {
+  width: 402px;
+  height: 302px;
+  padding: 26px 11px 211px 11px;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0px 3px 24px 0px rgba(0, 6, 36, 0.18),
+    0px 8px 8px 0px rgba(0, 6, 36, 0.12);
+    margin-left: 100px;
+}
+.aboutusphoto {
+  width: 300px;
+  height: 381px;
+}
+.backicon{
+    margin-top: 350px;
+    margin-left: 1340px;
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .container {
+      margin-left: 10px;
+      margin-top: 10px;
+      height: auto;
+    }
+  
+    .custom-container {
+      width: 100%;
+      height: auto;
+    }
+  
+    .title {
+      width: 100%;
+      font-size: 24px;
+      line-height: 1.4;
+      margin-left: 10px;
+      margin-top: 20px;
+    }
+  
+    .aboutPhoto {
+      width: 100%;
+      height: auto;
+      padding: 16px;
+      margin-left: 0;
+    }
+  
+    .aboutusphoto {
+      width: 100%;
+      height: auto;
+    }
+  
+    .backicon {
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+  }
+  
+  /* For screens between 768px and 1200px */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .container {
+      margin-left: 20px;
+      margin-top: 20px;
+      height: auto;
+    }
+  
+    .custom-container {
+      width: 100%;
+      height: auto;
+    }
+  
+    .name {
+      font-size: 64px;
+      margin-left: 10px;
+    }
+  
+    .title {
+      width: 100%;
+      font-size: 20px;
+      line-height: 1.4;
+      margin-left: 20px;
+      margin-top: 60px;
+    }
+  
+    .aboutPhoto {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+      margin-left: 0;
+    }
+  
+    .aboutusphoto {
+      width: 100%;
+      height: auto;
+    }
+  
+    .backicon {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+  }
+  
+  /* For screens larger than 1200px */
+  @media (min-width: 1200px) {
+    .container {
+      margin-left: 30px;
+      margin-top: 30px;
+      height: 2000px;
+    }
+  
+    .custom-container {
+      width: 1350px;
+      height: 808px;
+    }
+  
+    .name {
+      font-size: 94px;
+      margin-left: 10px;
+    }
+  
+    .title {
+      width: 1200px;
+      font-size: 30px;
+      line-height: 50.6px;
+      margin-left: 80px;
+      margin-top: 100px;
+    }
+  
+    .aboutPhoto {
+      width: 402px;
+      height: 302px;
+      padding: 26px 11px 211px 11px;
+      margin-left: 100px;
+    }
+  
+    .aboutusphoto {
+      width: 300px;
+      height: 381px;
+    }
+  
+    .backicon {
+      margin-top: 350px;
+      margin-left: 1340px;
+    }
+  }
+  
